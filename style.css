@@ -1,0 +1,119 @@
+ 
+.image-container 
+{
+    position:relative;
+
+}
+
+.button-container {
+    position: absolute;
+    top: 3;
+    display: flex;
+    right: 0;
+    
+}
+
+.button-container button {
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.button-container button:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+ .new-account {
+    border: 1px solid white;
+}
+
+header{
+    text-align: center;
+}
+.logo-row{
+    text-align: center;
+}
+
+p{
+    position: absolute;
+   border-radius:50%;
+   background-color: white;
+   width: 60px;
+   height: 40px; 
+   top: 100px;
+   left: 600px;
+   padding-top: 20px;
+   color:red;
+}
+p{
+    background-color: solid white;
+}
+.image-container{
+    position:relative;
+}
+.image-container img{
+    max-width 100%;
+    height:auto;
+}
+.heading h1{
+    position:absolute;
+    top:25%;
+    left:30%;
+    color:white;
+    padding:10px;
+}
+
+.input-container {
+    position: absolute;
+    top: 270px;
+    left: 500px;
+    padding: 10px;
+}
+#location{
+    color:darkblue;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.text {
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text span{
+    font-weight:100;
+}
+
+
+.flex-container {
+display: flex;
+column-gap: 200px;
+padding-left: 100px;
+flex-wrap: wrap;
+row-gap: 40px;
+box-shadow:aliceblue;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+   
+    width: 200px;
+    height: 120px;
+}
+.a1{
+    box-shadow:  0 2px 3px #000;
+    width:300;
+    height: 98;
+}
+
+

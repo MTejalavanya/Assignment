@@ -1,0 +1,230 @@
+.topnav
+{
+ background-color:red;
+    height:50px;
+    width:100%;
+font-size: 18px;
+text-align: right;
+text-decoration: none;
+border :none;
+}
+.topnav p{
+  position: absolute;
+ border-radius:50%;
+ background-color: white;
+ width: 35px;
+ height: 35px; 
+ top: 0;
+ right:90%;
+ padding-top:0;
+ padding-right: 10;
+ padding-bottom: 0;
+ color:red;
+ text-align: center;
+}
+
+/* style to h1 */
+h1{
+  color:midnightblue;
+  font-style:bold;
+}
+h5{
+  color:darkblue;
+  font-style:helvetica;
+  padding-left: 10px;
+}
+::placeholder{
+  color:midnightblue;
+}
+datalist{
+  color:blue;
+}
+select option{ color:blue;
+}
+.shadow {
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  width:480;
+ height: 90%;
+border-radius: 2%;
+padding:30px;
+padding-top: 10px;
+}
+div:nth-child(1){
+  box-shadow:0 3px 6px rgb(0 0 0/0.2);
+}
+h4{
+  color:darkblue;
+  font-family:normal;
+  padding-left: 10px;
+}
+#location{
+  color:blue;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  color:darkblue;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family:helvetica ;
+}
+
+
+/* Hide the  default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color:lightslategray;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: darkblue;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 2px;
+  top: 3px;
+  width: 8px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.segment,.segment1
+{
+  color:darkblue;
+  font-family: helvetica;
+  font-size: 15px;
+  padding:1px;
+  
+  
+}
+p{ color:darkblue;
+  font-family: helvetica;
+  font-size: 15px;
+  font-style: bold;
+  padding: 10px;
+}
+ .shadow2{
+    display:grid;
+    grid-template-rows:repeat(4,1fr);
+    width:600;
+   height: 900;
+  border-radius: 2%;
+  position: absolute;
+  top:180;
+  left:300;
+  }
+  div:nth-child(2){
+    box-shadow: -5 3px -10 rgb(0 0 0/0.2);
+  }
+  img{
+  
+    position:absolute;
+    border-radius:8px;
+ width: 120px;
+ height: 120px; 
+ top: 10;
+ left:10px;
+ 
+  }
+  h3{
+    color:darkblue;
+    position: absolute;
+    left:150;
+    font-size: 25px;
+  }
+ h6{
+  color:darkblue;
+    position: absolute;
+    left:150;
+    top:40px;
+  }
+  .blue
+{
+  color:darkblue;
+    position: absolute;
+    left:140;
+    top:50px;
+   
+} 
+.s1{
+  color:darkblue;
+  top:120px;
+  position:absolute;
+  font-size: 12px;
+}
+.s3{
+  top:150px;
+  color:darkblue;
+  position:absolute;
+  font-size: 12px;
+}
+.s2{
+  color:darkblue;
+  top:120px;
+  position:absolute;
+  font-size: 14px;
+left:200px;
+}
+.s4{
+  color:darkblue;
+  top:150px;
+  position:absolute;
+  font-size: 14px;
+left:200px;
+}
+
+.shadow3{
+  display:grid;
+  grid-template-rows:repeat(4,1fr);
+  width:600;
+ height: 900;
+border-radius: 2%;
+position: absolute;
+top:450;
+left:300;
+}
+div:nth-child(3){
+  box-shadow: -5 3px -10 rgb(0 0 0/0.2);
+}
